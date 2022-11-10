@@ -11,13 +11,13 @@ const Navbar = () => {
   const active_class =
     "block py-2 pr-4 pl-3 text-white bg-[#7703fc] rounded md:bg-transparent md:text-[#7703fc] md:p-0";
   const not_active_class =
-    "block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#7703fc] md:p-0";
+    "block py-2 pr-4 pl-3 text-white rounded hover:text-[#7703fc] md:hover:bg-transparent md:border-0 md:hover:text-[#7703fc] md:p-0";
 
   return (
-    <nav className="bg-white border-2 px-2 sm:px-4 py-2.5 rounded sticky top-0 z-50">
+    <nav className="bg-black border-2 px-2 sm:px-4 py-2.5 rounded sticky top-0 z-50 ">
       <div className="container flex flex-wrap justify-between items-center mx-auto relative">
         <Link href="/" className="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap ">
+          <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
             MURL
           </span>
         </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
           className={hidden ? hidden_class : normal_class}
           id="navbar-default"
         >
-          <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+          <ul className="flex flex-col p-4 mt-4 bg-red rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-black ">
             <li>
               <Link
                 href="/"
