@@ -3,6 +3,7 @@ import Image from "next/image";
 import Currentwork from "../components/Currentwork";
 import Header from "../components/Header";
 import Impact from "../components/Impact";
+import NewsFeed from "../components/NewsFeed";
 import Vision from "../components/Vision";
 import styles from "../styles/Home.module.css";
 
@@ -16,9 +17,9 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Vision />
-      <Impact />
       <Currentwork />
+      <Vision />
+      <NewsFeed />
     </div>
   );
 }
