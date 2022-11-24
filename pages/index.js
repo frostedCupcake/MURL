@@ -1,10 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Currentwork from "../components/Currentwork";
+import Discription from "../components/Discription";
 import Header from "../components/Header";
-import Impact from "../components/Impact";
-import NewsFeed from "../components/NewsFeed";
-import Vision from "../components/Vision";
+import Feed from "../components/Feed";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,9 +15,8 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Currentwork />
-      <Vision />
-      <NewsFeed />
+      <Discription />
+      <Feed />
     </div>
   );
 }
